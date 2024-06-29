@@ -8,7 +8,7 @@ import (
 	"github.com/valyala/fasthttp"
 )
 
-const API_KEY = "952ab59ba4ebc3bdc4a5d44fe5a90e5cdeb0079cd275f5ea3f12debdf0457fd8"
+const API_KEY = "Your-APIKEY"
 
 func getURLID(urlStr string) (map[string]interface{}, error) {
 	endpoint := "https://www.virustotal.com/api/v3/urls"
